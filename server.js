@@ -1,6 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 
+const port = process.env.PORT || 2345;
 var app = express();
 
 
@@ -58,4 +59,4 @@ app.get('/bad', (req, res) => {
 
 
 // start the server here
-app.listen(2345);
+app.listen(port);
