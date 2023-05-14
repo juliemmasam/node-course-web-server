@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
   // res.send('hello express');
   res.send({
     name: "Emmanuel Julius Samson",
-    age: "22 yrs",
+    age: "26 yrs",
     course: "Telecoms Eng"
   });
 });
